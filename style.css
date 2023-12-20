@@ -1,0 +1,139 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: tomato;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%; 
+    max-width: 1920px; 
+    background-color: rgb(105, 15, 96);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(4, 86, 116);
+    overflow: hidden;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-panel,
+.right-panel {
+    flex: 1; 
+    padding: 20px;
+}
+
+.header {
+    background-color: olive;
+    color: #F2E7DC;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.profile img {
+    border-radius: 100%;
+    margin-right: 30px;
+}
+
+.profile h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.posts {
+    margin: 20px;
+    color: olive;
+}
+
+.post {
+    border-bottom: 1px solid olive;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.post img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-content {
+    flex-grow: 1;
+}
+
+.post h2 {
+    margin: 0;
+}
+
+.post p {
+    margin: 10px 0;
+}
+
+.post img.post-image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.form {
+    padding: 20px;
+    background-color: tomato;
+    color: #F2E7DC;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form button {
+    background-color: olive;
+    color: #F2E7DC;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    
+}
+.form button:hover {
+    background-color: #A9D9D0;}
+ .scroll:hover {
+        background-color: #A9D9D0;}
+    
+.scroll{
+    background-color: olive;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+
+}
+.delete-button {
+    background-color: tomato;
+    color: #F2E7DC;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}

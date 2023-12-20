@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="container">
+       
+        
+        <div class="profile">
+            
+        </div>
+
+        <div class="posts" id="posts-container">
+           
+        </div>
+
+        <div class="form">
+            
+            
+            <label for="nameInput">nicmname:</label>
+            <input type="text" id="nameInput" placeholder="name">
+            
+            <label for="imgInput">your pictire  :</label>
+            <input type="text" id="imgInput" placeholder="Url">    
+            <button onclick="updateData()">change</button>
+
+            <hr>
+            
+            <label for="newPostNameInput">nickname:</label>
+            <input type="text" id="newPostNameInput" placeholder="name">            
+            <label for="newPostImgInput">your picture:</label>
+            <input type="text" id="newPostImgInput" placeholder="Url">
+            <button onclick="scrollToBottom()">to the bottom</button>
+            
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <button class="scroll" onclick="scrollToTop()">to the top</button>
+</body>
+</html>
